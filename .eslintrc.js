@@ -9,6 +9,7 @@ module.exports = {
   },
   extends: [
     'plugin:react/recommended',
+    'plugin:react-hooks/recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended', // Keep this as last configuration in the extends array
   ],
