@@ -14,6 +14,10 @@
   "keywords": [],
   "author": "Sakari Mursu <sakari@mursu.dev>",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mskri/typescript-parcel-react-kit"
+  },
   "dependencies": {
     "node-forge": "^0.10.0",
     "react": "^17.0.1",
