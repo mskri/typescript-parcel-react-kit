@@ -1,0 +1,55 @@
+{
+  "name": "typescript-parcel-react-kit",
+  "description": "A template kit for TypeScript + parcel + ReactJS.",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "NODE_ENV=development parcel ./src/index.html --port 5000 ",
+    "build": "NODE_ENV=production parcel build ./src/index.html",
+    "test": "jest",
+    "lint": "eslint '*/**/*.{js,jsx,ts,tsx}'",
+    "lint:fix": "eslint '*/**/*.{js,jsx,ts,tsx}' --quiet --fix",
+    "format": "prettier --write \"./**/*.{js,jsx,ts,tsx,json}\""
+  },
+  "keywords": [],
+  "author": "Sakari Mursu <sakari@mursu.dev>",
+  "license": "ISC",
+  "dependencies": {
+    "node-forge": "^0.10.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "@babel/preset-typescript": "^7.12.1",
+    "@hot-loader/react-dom": "^16.14.0",
+    "@types/node": "^14.14.2",
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "@typescript-eslint/eslint-plugin": "^4.5.0",
+    "@typescript-eslint/parser": "^4.5.0",
+    "autoprefixer": "^9.8.6",
+    "eslint": "^7.12.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^3.1.0",
+    "npm-run-all": "^4.1.5",
+    "parcel-bundler": "^1.12.4",
+    "postcss-modules": "^3.2.2",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^1.11.1",
+    "react-hot-loader": "^4.13.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.0.3"
+  },
+  "alias": {
+    "react-dom": "@hot-loader/react-dom"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
