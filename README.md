@@ -1,6 +1,6 @@
 # typescript-parcel-react-kit
 
-A template kit for starting a react web app with parcel as the bundler.
+A template for starting a TypeScript React web app with parcel as the bundler.
 
 ## Includes
 
@@ -26,7 +26,7 @@ npm i
 npm start
 ```
 
-### [GitHub cli](https://cli.github.com/manual/) (`gh`)
+### [GitHub cli](https://cli.github.com/manual/)
 
 ```bash
 gh repo create -p mskri/typescript-parcel-react-kit repo-name
@@ -34,3 +34,8 @@ cd repo-name
 npm i
 npm start
 ```
+
+### See my other templates
+
+- [typescript-kit](https://github.com/mskri/typescript-kit)
+- [parcel-react-kit](https://github.com/mskri/parcel-react-kit)
